@@ -1,0 +1,19 @@
+.number-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list-item {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.list-item:hover {
+  background-color: #f0f8ff;
+  transform: translateY(-3px);
+}
